@@ -6,11 +6,11 @@ r = input("Enter your name: ")
 
 hello(r)
 
-s = input("Enter your Best Friend's name: ")
+s = input("Enter your brother's name: ")
 
 hello(s)
 
-t = input("Enter your Girl Friend's name: ")
+t = input("Enter your sister's name: ")
 
 hello(t)
 
