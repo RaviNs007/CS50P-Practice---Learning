@@ -32,6 +32,3 @@ duplicat Products = {duplicat_produts})
 
 Unique Products = {unique_products})
 """)
-
-
-    
