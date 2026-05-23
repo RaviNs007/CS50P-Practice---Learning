@@ -28,6 +28,3 @@ def password_check(password):
     else:
         return False
 main()
-
-# use has_number
-# has_letter
