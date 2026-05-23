@@ -15,7 +15,6 @@ while True:
         else:
             print('Tank already full')
             
-        
     elif command == "drain":
         if tank_level > 0:
             tank_level -= 10
