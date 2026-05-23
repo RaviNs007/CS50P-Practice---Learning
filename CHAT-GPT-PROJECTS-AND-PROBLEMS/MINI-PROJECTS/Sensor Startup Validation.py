@@ -9,8 +9,6 @@ def main():
         print(f"{name} is Invalid")
     
 
-
-
 def name_check(name):
     
     if not name[:3].isalpha():
