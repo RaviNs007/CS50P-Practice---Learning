@@ -34,7 +34,6 @@ def main():
             print(f' Total High Alarm = {High_alarm}')
             print(f' Total Low Alarm = {Low_alarm}')
             
-            break
-                       
+            break       
 
 main()
