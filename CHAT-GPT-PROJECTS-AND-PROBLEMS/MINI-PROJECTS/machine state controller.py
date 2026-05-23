@@ -22,7 +22,6 @@ def main():
                 print("Machine stopped")
                 Machine_Status_ON = False
         
-        
         elif not Machine_Status_ON:
             
             if state == 'STATUS':
