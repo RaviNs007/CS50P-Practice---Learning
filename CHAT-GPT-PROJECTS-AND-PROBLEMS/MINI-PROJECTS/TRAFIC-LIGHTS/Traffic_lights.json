@@ -1,0 +1,6 @@
+{
+    "go": "green",
+    "pause": "yellow",
+    "stop": "red",
+    "last": "green"
+}

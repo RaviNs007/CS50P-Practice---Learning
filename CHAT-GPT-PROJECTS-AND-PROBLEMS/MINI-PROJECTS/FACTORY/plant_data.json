@@ -1,0 +1,54 @@
+{
+    "plant": {
+        "name": "Rex Automation Plant",
+        "location": "Chennai",
+        "shift": "Morning"
+    },
+
+    "machines": {
+        "M1": {
+            "name": "Boiler Feed Pump",
+            "status": "running",
+            "readings": {
+                "temperature": 100.5,
+                "pressure": 98.2,
+                "vibration": 3.1
+            },
+            "limits": {
+                "temperature": {"low": 20, "high": 80},
+                "pressure": {"low": 30, "high": 100},
+                "vibration": {"low": 0, "high": 5}
+            }
+        },
+
+        "M2": {
+            "name": "Cooling Fan",
+            "status": "stopped",
+            "readings": {
+                "temperature": 45.0,
+                "pressure": 0.0,
+                "vibration": 0.2
+            },
+            "limits": {
+                "temperature": {"low": 20, "high": 70},
+                "pressure": {"low": 0, "high": 10},
+                "vibration": {"low": 0, "high": 4}
+            }
+        },
+
+        "M3": {
+            "name": "Hydraulic Press",
+            "status": "running",
+            "readings": {
+                "temperature": 92.4,
+                "pressure": 145.0,
+                "vibration": 6.8
+            },
+            "limits": {
+                "temperature": {"low": 25, "high": 85},
+                "pressure": {"low": 50, "high": 130},
+                "vibration": {"low": 0, "high": 5}
+            }
+        }
+    }
+}

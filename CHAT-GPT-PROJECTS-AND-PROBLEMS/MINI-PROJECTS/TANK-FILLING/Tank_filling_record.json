@@ -1,0 +1,6 @@
+{
+    "start_button": false,
+    "stop_button": false,
+    "pump": false,
+    "tank_level": 45
+}
